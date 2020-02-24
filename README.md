@@ -32,6 +32,8 @@ and generators will skip generating views.
 
 One noticeable change - some browser errors will disappear. Normally, when a Rails
 server is running, it produces an error message in browser when something goes
+wrong while attempting to render. Since there is no way to render views in thisOne noticeable change - some browser errors will disappear. Normally, when a Rails
+server is running, it produces an error message in browser when something goes
 wrong while attempting to render. Since there is no way to render views in this
 API-only build, if the Rails API fails and we visit it in browser, it will just
 show a blank screen.
